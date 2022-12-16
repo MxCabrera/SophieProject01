@@ -3,3 +3,55 @@
    width: 90%;
    margin: 0 auto;
 }
+
+.flex {
+   display: flex; 
+   justify-content: space-between;
+}
+
+button {
+   text-transform: uppercase;
+   color: $primary;
+   background-color: $quinary;
+   padding: 0.9rem 1.8rem;
+   line-height: 1.2rem;
+   text-align: center;
+   cursor: pointer;
+   &:hover {
+      color: $quinary;
+      background-color: $primary;
+   }
+   &:focus {
+      color: $quinary;
+      background-color: $primary;
+   }
+   &.secondary {
+      width: 100%;
+   }
+   &.menuIcon {
+      color: $primary;
+      &:hover {
+         color: $headerText;
+      }
+   }
+}
+
+a {
+   &.button {
+      color: $primary;
+      background-color: $quinary;
+      padding: 0.9rem 1.8rem;
+      line-height: 1.2rem;
+      text-align: center;
+
+      &:hover {
+         background-color: $primary;
+         color: $quinary;
+      }
+
+      &:focus {
+         background-color: $primary;
+         color: $quinary;
+      }
+   }
+}

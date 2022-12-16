@@ -2,3 +2,66 @@ html {
    font-size: 125%;
 }
 
+body {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   transition: all 0.3 linear;
+   font-size: 1rem;
+}
+
+h1, h2, h3, h4 {
+   text-transform: uppercase;
+   color: $primary;
+} 
+
+h1 {
+   font-size: 4rem;
+   font-family: 'Lora', serif;
+   line-height: 4.3rem;
+}
+
+h2 {
+   font-size: 2.1rem;
+   line-height: 2.4rem;
+}
+
+h3 {
+   font-size: 1.6rem;
+   line-height: 1.8rem;
+}
+
+.home,
+.contact,
+.blog {
+   color: $headerText;
+   font-size: 1.2rem;
+   line-height: 1.4rem;
+}
+
+button {
+   font-size: 1rem;
+   line-height: 1.2rem;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+   cursor: pointer;
+}
+
+p {
+   font-size: 1rem;
+}
+
+
+
+// text style catalog
+
+// Heading text - blog, get in touch (lora, bold, 80px,black)
+// - who is sophie, sophie's journey  (roboto, bold, 42px, black)
+// - sophies favorite things, photos, why (roboto, bold, 32px, black)
+// about sophie, recent posts (roboto, bold, 24px, black)
+// header text 24 - (roboto, bold. 24px, #rgb 246 246 246)
+// button text - (roboto, bold, 20px, black)
+// menu text - home, about (roboto, bold, 20px, black)
+// body text (roboto, regular, 20px, black
