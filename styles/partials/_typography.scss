@@ -6,11 +6,17 @@ html {
    font-size: 125%;
 }
 
+* {
+padding: 0;
+margin: 0;
+}
+
 body {
    font-family: 'Roboto', sans-serif;
    font-weight: 700;
    transition: all 0.3 linear;
    font-size: 1rem;
+   // background-color: $tertiary;
 }
 
 
