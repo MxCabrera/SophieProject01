@@ -1,3 +1,7 @@
+// ~ typography styles ~ //
+
+
+// ~ sizing base fonts ~ //
 html {
    font-size: 125%;
 }
@@ -9,6 +13,8 @@ body {
    font-size: 1rem;
 }
 
+
+// ~ header styles & sizes ~ //
 h1, h2, h3, h4 {
    text-transform: uppercase;
    color: $primary;
@@ -38,6 +44,9 @@ h3 {
    line-height: 1.4rem;
 }
 
+
+// ~ button & anchor styles ~ //
+
 button {
    font-size: 1rem;
    line-height: 1.2rem;
@@ -54,8 +63,6 @@ p {
 }
 
 
-
-// text style catalog
 
 // Heading text - blog, get in touch (lora, bold, 80px,black)
 // - who is sophie, sophie's journey  (roboto, bold, 42px, black)

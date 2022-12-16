@@ -1,14 +1,21 @@
+// ~ generic base styles below ~ //
+
+
+// ~ wrapper to contain items ~ //
 .wrapper {
    max-width: 1260px;
    width: 90%;
    margin: 0 auto;
 }
 
+
+// ~ flex items ~ //
 .flex {
    display: flex; 
    justify-content: space-between;
 }
 
+// ~ button styles with hover&focus ~ // 
 button {
    text-transform: uppercase;
    color: $primary;
@@ -36,6 +43,7 @@ button {
    }
 }
 
+// ~ anchor tag styles with hover&focus ~ //
 a {
    &.button {
       color: $primary;
@@ -43,12 +51,10 @@ a {
       padding: 0.9rem 1.8rem;
       line-height: 1.2rem;
       text-align: center;
-
       &:hover {
          background-color: $primary;
          color: $quinary;
       }
-
       &:focus {
          background-color: $primary;
          color: $quinary;
