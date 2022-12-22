@@ -1,0 +1,35 @@
+// who section //
+
+.whoSection {
+   padding-top: 4rem;
+   margin-bottom: 2rem;
+   h2 {
+      margin-bottom: 1.5rem;
+   }
+   p {
+      margin: 2rem 0;
+   }
+}
+
+// fact section //
+
+.factSection {
+   // background-color: $primary;
+   .factImgContainer {
+      width: 48%;
+      box-shadow: 20px 20px 1px $tertiary;
+      margin-top: 3rem;
+      img {
+         width: 100%;
+         object-fit: cover;
+      }
+   }
+   .factInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: right;
+      justify-content:flex-end;
+      width: 52%;
+      padding: 0 2rem;
+   }
+}

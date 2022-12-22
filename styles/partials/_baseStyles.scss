@@ -20,9 +20,10 @@ button {
    text-transform: uppercase;
    color: $primary;
    background-color: $quinary;
-   padding: 0.9rem 1.8rem;
+   padding: 0.8rem 1.8rem;
    line-height: 1.2rem;
    text-align: center;
+   border-style: hidden;
    cursor: pointer;
    &:hover {
       color: $quinary;
@@ -45,12 +46,14 @@ button {
 
 // ~ anchor tag styles with hover&focus ~ //
 a {
+   border-style: none;
    &.button {
       color: $primary;
       background-color: $quinary;
       padding: 0.9rem 1.8rem;
       line-height: 1.2rem;
       text-align: center;
+      border-style: none;
       &:hover {
          background-color: $primary;
          color: $quinary;
