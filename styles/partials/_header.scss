@@ -1,4 +1,28 @@
 header {
    background-color: $tertiary;
    height: 100vh;
+   .flex {
+      justify-content: space-between;
+      align-items: center;
+   }
+   .logoContainer {
+      width: 50%;
+      position: relative;
+      img {
+         position: absolute;
+         top: -50px;
+         left: 0;
+      }
+      h1 {
+         text-align: center;
+         width: 100%;
+      }
+   }
+   .headerImgContainer {
+      box-shadow: 10px 10px 1px $septenary;
+      img {
+         width: 100%;
+         object-fit: cover;
+      }
+   }
 }

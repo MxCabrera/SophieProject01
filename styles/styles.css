@@ -327,6 +327,12 @@ p {
   font-size: 1rem;
 }
 
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
 .wrapper {
   max-width: 1260px;
   width: 90%;
@@ -385,7 +391,54 @@ a.button:focus {
   color: #05afc1;
 }
 
+nav {
+  background-color: #f6a823;
+}
+nav .navContainer {
+  width: 50%;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+nav .navContainer h2 {
+  font-family: "Lora", serif;
+}
+nav .navContainer li a:hover {
+  color: #f0efed;
+}
+
 header {
   background-color: #f6a823;
   height: 100vh;
+}
+header .flex {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header .logoContainer {
+  width: 50%;
+  position: relative;
+}
+header .logoContainer img {
+  position: absolute;
+  top: -50px;
+  left: 0;
+}
+header .logoContainer h1 {
+  text-align: center;
+  width: 100%;
+}
+header .headerImgContainer {
+  -webkit-box-shadow: 10px 10px 1px #f0efed;
+          box-shadow: 10px 10px 1px #f0efed;
+}
+header .headerImgContainer img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }

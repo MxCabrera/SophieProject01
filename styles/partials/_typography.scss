@@ -68,7 +68,13 @@ p {
    font-size: 1rem;
 }
 
+// ~ unordered list & li styles ~ //
 
+ul,
+li {
+   text-decoration: none;
+   list-style: none;
+}
 
 // Heading text - blog, get in touch (lora, bold, 80px,black)
 // - who is sophie, sophie's journey  (roboto, bold, 42px, black)
