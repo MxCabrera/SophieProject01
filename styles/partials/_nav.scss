@@ -1,4 +1,5 @@
 nav {
+   padding-top: 1rem;
    background-color: $tertiary;
    .navContainer {
       width: 50%;
@@ -8,6 +9,7 @@ nav {
          font-family: 'Lora', serif;
       }
       li {
+         text-transform: uppercase;
          a:hover {
             color: $septenary;
          }

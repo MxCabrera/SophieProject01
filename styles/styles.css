@@ -392,6 +392,7 @@ a.button:focus {
 }
 
 nav {
+  padding-top: 1rem;
   background-color: #f6a823;
 }
 nav .navContainer {
@@ -404,6 +405,9 @@ nav .navContainer {
 nav .navContainer h2 {
   font-family: "Lora", serif;
 }
+nav .navContainer li {
+  text-transform: uppercase;
+}
 nav .navContainer li a:hover {
   color: #f0efed;
 }
@@ -411,6 +415,7 @@ nav .navContainer li a:hover {
 header {
   background-color: #f6a823;
   height: 100vh;
+  padding-top: 2.5rem;
 }
 header .flex {
   -webkit-box-pack: justify;
