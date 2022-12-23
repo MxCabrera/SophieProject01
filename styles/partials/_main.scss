@@ -33,3 +33,17 @@
       padding: 0 2rem;
    }
 }
+
+// information section //
+
+.infoSection {
+   padding-top: 3rem;
+   background-color: $septenary;
+   .infoFlex {
+      display: flex;
+      flex-wrap: wrap;
+      .infoContainer {
+         width: 50%;
+      }
+   }
+}

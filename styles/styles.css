@@ -500,3 +500,18 @@ header .headerImgContainer img {
   width: 52%;
   padding: 0 2rem;
 }
+
+.infoSection {
+  padding-top: 3rem;
+  background-color: #f0efed;
+}
+.infoSection .infoFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.infoSection .infoFlex .infoContainer {
+  width: 50%;
+}
