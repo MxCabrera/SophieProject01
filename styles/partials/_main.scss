@@ -1,13 +1,19 @@
 // who section //
 
 .whoSection {
+   background-color: rgba($quaternary, 0.2) ;
    padding-top: 4rem;
-   margin-bottom: 2rem;
    h2 {
       margin-bottom: 1.5rem;
    }
    p {
       margin: 2rem 0;
+   }
+   a {
+      button {
+         margin-bottom: 6rem;
+
+      }
    }
 }
 
@@ -15,35 +21,97 @@
 
 .factSection {
    // background-color: $primary;
+   .flexTwo {
+      margin-top: 3rem;
+   }
+   .factOne {
+      box-shadow: 30px 20px $senary;
+      img {
+         box-shadow: -100px 20px $senary;
+      }
+   }
+   .factTwo {
+      box-shadow: 30px 20px $tertiary;
+      img {
+         box-shadow: 100px 20px $tertiary;
+      }
+   }
    .factImgContainer {
       width: 48%;
-      box-shadow: 20px 20px 1px $tertiary;
-      margin-top: 3rem;
+      // box-shadow: 20px 20px 1px $tertiary;
       img {
          width: 100%;
          object-fit: cover;
+         height:100%;
       }
    }
    .factInfo {
       display: flex;
       flex-direction: column;
-      align-items: right;
-      justify-content:flex-end;
       width: 52%;
       padding: 0 2rem;
+   }
+   .factInfoOne {
+      align-items: right;
+      justify-content:flex-end;
+   }
+   .factInfoTwo {
+      text-align: right;
+      padding-top: 4rem;
+      justify-content: flex-start;
+      align-items: left;
    }
 }
 
 // information section //
 
 .infoSection {
-   padding-top: 3rem;
+   padding: 4rem 0 3rem ;
+
    background-color: $septenary;
    .infoFlex {
       display: flex;
       flex-wrap: wrap;
       .infoContainer {
          width: 50%;
+         padding: 1rem;
+         .infoIcon {
+            width: 20%;
+            i {
+               background-color: $tertiary;
+               padding: 0.5rem;
+               border-radius: 50%;
+            }
+         }
       }
    }
+}
+
+
+// journey section //
+
+.journeySection {
+   padding-bottom: 3rem;
+   .journeyImgContainer {
+      img {
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+         }
+   }
+   .journeyContainer {
+      padding-top: 2rem;
+      .journeyInfo {
+         padding-left: 2rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+      }
+   }
+}
+
+// photo gallery //
+
+.photoGallery {
+   padding-bottom: 3rem;
 }

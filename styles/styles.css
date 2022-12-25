@@ -405,7 +405,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 10;
-  padding-top: 1rem;
+  padding: 1rem 0;
   background-color: #f6a823;
 }
 nav .navContainer {
@@ -428,7 +428,6 @@ nav .navContainer li a:hover {
 header {
   background-color: #f6a823;
   height: 100vh;
-  padding-top: 2.5rem;
 }
 header .flex {
   -webkit-box-pack: justify;
@@ -462,8 +461,8 @@ header .headerImgContainer img {
 }
 
 .whoSection {
+  background-color: rgba(79, 79, 79, 0.2);
   padding-top: 4rem;
-  margin-bottom: 2rem;
 }
 .whoSection h2 {
   margin-bottom: 1.5rem;
@@ -471,17 +470,37 @@ header .headerImgContainer img {
 .whoSection p {
   margin: 2rem 0;
 }
+.whoSection a button {
+  margin-bottom: 6rem;
+}
 
+.factSection .flexTwo {
+  margin-top: 3rem;
+}
+.factSection .factOne {
+  -webkit-box-shadow: 30px 20px #a82706;
+          box-shadow: 30px 20px #a82706;
+}
+.factSection .factOne img {
+  -webkit-box-shadow: -100px 20px #a82706;
+          box-shadow: -100px 20px #a82706;
+}
+.factSection .factTwo {
+  -webkit-box-shadow: 30px 20px #f6a823;
+          box-shadow: 30px 20px #f6a823;
+}
+.factSection .factTwo img {
+  -webkit-box-shadow: 100px 20px #f6a823;
+          box-shadow: 100px 20px #f6a823;
+}
 .factSection .factImgContainer {
   width: 48%;
-  -webkit-box-shadow: 20px 20px 1px #f6a823;
-          box-shadow: 20px 20px 1px #f6a823;
-  margin-top: 3rem;
 }
 .factSection .factImgContainer img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 100%;
 }
 .factSection .factInfo {
   display: -webkit-box;
@@ -491,18 +510,30 @@ header .headerImgContainer img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 52%;
+  padding: 0 2rem;
+}
+.factSection .factInfoOne {
   -webkit-box-align: right;
       -ms-flex-align: right;
           align-items: right;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  width: 52%;
-  padding: 0 2rem;
+}
+.factSection .factInfoTwo {
+  text-align: right;
+  padding-top: 4rem;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
 }
 
 .infoSection {
-  padding-top: 3rem;
+  padding: 4rem 0 3rem;
   background-color: #f0efed;
 }
 .infoSection .infoFlex {
@@ -514,4 +545,52 @@ header .headerImgContainer img {
 }
 .infoSection .infoFlex .infoContainer {
   width: 50%;
+  padding: 1rem;
+}
+.infoSection .infoFlex .infoContainer .infoIcon {
+  width: 20%;
+}
+.infoSection .infoFlex .infoContainer .infoIcon i {
+  background-color: #f6a823;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.journeySection {
+  padding-bottom: 3rem;
+}
+.journeySection .journeyImgContainer img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+.journeySection .journeyContainer {
+  padding-top: 2rem;
+}
+.journeySection .journeyContainer .journeyInfo {
+  padding-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.photoGallery {
+  padding-bottom: 3rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #2c2c2c;
+  padding: 0.7rem 0;
+}
+footer h4 {
+  font-weight: 400;
+  color: #f0efed;
 }
