@@ -50,6 +50,11 @@
       flex-direction: column;
       width: 52%;
       padding: 0 2rem;
+      h3,
+      p {
+         margin-bottom: 1.5rem;
+      }
+
    }
    .factInfoOne {
       align-items: right;
@@ -57,7 +62,6 @@
    }
    .factInfoTwo {
       text-align: right;
-      padding-top: 4rem;
       justify-content: flex-start;
       align-items: left;
    }
@@ -76,11 +80,16 @@
          width: 50%;
          padding: 1rem;
          .infoIcon {
-            width: 20%;
+            width: 30%;
             i {
                background-color: $tertiary;
                padding: 0.5rem;
                border-radius: 50%;
+            }
+         }
+         .infoBox {
+            h3 {
+               margin-bottom: 1rem;
             }
          }
       }
@@ -94,18 +103,25 @@
    padding-bottom: 3rem;
    .journeyImgContainer {
       img {
-            width: 100%;
-            height: auto;
-            max-width: 100%;
-         }
+         width: 100%;
+         height: auto;
+         max-width: 100%;
+      }
    }
    .journeyContainer {
       padding-top: 2rem;
+      .journeyPic {
+         box-shadow: 20px 18px $tertiary;
+         img {
+            height: 100%;
+            object-fit: cover;
+         }
+      }
       .journeyInfo {
-         padding-left: 2rem;
+         padding-left: 4rem;
          display: flex;
          flex-direction: column;
-         justify-content: space-evenly;
+         justify-content: space-between;
       }
    }
 }
@@ -114,4 +130,13 @@
 
 .photoGallery {
    padding-bottom: 3rem;
+   .photoContainer {
+      width: 32%;
+      img {
+         width: 100%;
+      }
+   }
+   .photoMid {
+      margin: 0 0.5rem;
+   }
 }

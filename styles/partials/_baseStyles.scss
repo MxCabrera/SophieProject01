@@ -26,12 +26,12 @@ button {
    border-style: hidden;
    cursor: pointer;
    &:hover {
-      color: $quinary;
-      background-color: $primary;
+      color: $septenary;
+      background-color: $secondary;
    }
    &:focus {
-      color: $quinary;
-      background-color: $primary;
+      color: $septenary;
+      background-color: $secondary;
    }
    &.secondary {
       width: 100%;
