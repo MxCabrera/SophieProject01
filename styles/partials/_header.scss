@@ -1,6 +1,6 @@
 header {
    background-color: $tertiary;
-   height: 95vh;
+   height: 85vh;
    .flex {
       justify-content: space-between;
       align-items: center;
@@ -11,7 +11,7 @@ header {
       img {
          position: absolute;
          top: -50px;
-         left: 50px;
+         left: 12%;
       }
       h1 {
          text-align: center;

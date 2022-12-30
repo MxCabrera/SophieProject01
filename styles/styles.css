@@ -409,7 +409,7 @@ nav {
   background-color: #f6a823;
 }
 nav .navContainer {
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -427,7 +427,7 @@ nav .navContainer li a:hover {
 
 header {
   background-color: #f6a823;
-  height: 95vh;
+  height: 85vh;
 }
 header .flex {
   -webkit-box-pack: justify;
@@ -444,7 +444,7 @@ header .logoContainer {
 header .logoContainer img {
   position: absolute;
   top: -50px;
-  left: 50px;
+  left: 12%;
 }
 header .logoContainer h1 {
   text-align: center;
@@ -618,4 +618,18 @@ footer h4 {
   font-weight: 400;
   color: #f0efed;
   text-transform: none;
+}
+
+@media (max-width: 1140px) {
+  header .logoContainer img {
+    left: 4%;
+  }
+}
+@media (max-width: 940px) {
+  nav .navContainer {
+    width: 70%;
+  }
+  header .logoContainer img {
+    left: -2%;
+  }
 }

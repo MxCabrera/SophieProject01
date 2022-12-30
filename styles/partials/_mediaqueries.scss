@@ -1,17 +1,39 @@
 
 // ~ 1140px media query ~ //
 @media (max-width: 1140px) {
+   header {
+      .logoContainer {
+         img {
+            left: 4%;
+         }
+      }
+   }
 
 }
 
 // ~ 940px media query ~ //
 @media (max-width: 940px) {
 
+   nav {
+      .navContainer {
+         width: 70%;
+      }
+   }
+
+   header {
+      .logoContainer {
+         img {
+            left: -2%;
+         }
+      }
+   }
 }
 
 // ~ 768px media query ~ //
 @media (max-width: 768px) {
 
+
+   
 }
 
 // ~ 480px media query ~ //
