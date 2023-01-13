@@ -26,3 +26,13 @@ header {
       }
    }
 }
+
+
+.blogHeader {
+   height: 50vh;
+   position: relative;
+   h1 {
+      position: absolute;
+      bottom: -2rem;
+   }
+}
