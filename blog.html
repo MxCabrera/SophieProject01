@@ -69,16 +69,20 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Name consectetur ante at nisl hendrerit gravida. Donec vehicula rhondcus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit. Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor poseuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula. Praesent nec elit non dolor consectetur tincidunt sed in felis. Donec elementum, lacus at mattis tincidunt, eros magna faucibus sem, in condimentum est augue tristuque risus.</p>
                </div>
                <div class="blogComment flex">
-                  <img src="./assets/blog-image-3.jpg" alt="Male profile picture">
+                  <div class="blogImageBox">
+                     <img src="./assets/blog-image-3.jpg" alt="Male profile picture">
+                  </div>
                   <div class="commentBox">
-                     <h4>Tuesday October 9th, 2018 by Jeremy</h4>
+                     <h4 class="date">Tuesday October 9th, 2018 by <a href="">Jeremy</a></h4>
                      <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod Scelerisque ligula. Maecenas eu varius risus, eu aliquet arcu.</p>
                   </div>
                </div>
-               <div class="blogComment flex">
-                  <img src="./assets/blog-image-4.jpg" alt="Female profile picture">
+               <div class="blogComment flex underline">
+                  <div class="blogImageBox">
+                     <img src="./assets/blog-image-4.jpg" alt="Female profile picture">
+                  </div>
                   <div class="commentBox">
-                     <h4>Tuesday October 9th, 2018 by Jeremy</h4>
+                     <h4 class="date">Wednesday October 10th, 2018 by <a href="">Julia</a></h4>
                      <p>Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus vitae ullamcorper
                         metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod Scelerisque ligula. Maecenas eu
                         varius risus, eu aliquet arcu.</p>
@@ -86,13 +90,15 @@
                </div>
                <div class="formBox">
                   <form action="">
-                     <label for="name" class="sr-only">Name</label>
-                     <input type="text" placeholder="name" id="name">
-                     <label for="email" class="sr-only">Email address</label>
-                     <input type="email" placeholder="Email address" id="email">
+                     <div class="flex">
+                        <label for="name" class="sr-only">Name</label>
+                        <input class="name" type="text" placeholder="name" id="name">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input class="email" type="email" placeholder="Email address" id="email">
+                     </div>
                      <label for="comment" class="sr-only">comment</label>
-                     <input type="text" id="comment" placeholder="Comment">
-                     <input type="submit" placeholder="Post Comment">
+                     <input class="comment" type="text" id="comment" placeholder="Comment">
+                     <input class="submit" type="submit" value="Post Comment">
                   </form>
                </div>
             </section>

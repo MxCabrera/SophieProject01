@@ -16,7 +16,8 @@
 }
 
 // ~ button styles with hover&focus ~ // 
-button {
+button,
+.submit {
    text-transform: uppercase;
    color: $primary;
    background-color: $quinary;

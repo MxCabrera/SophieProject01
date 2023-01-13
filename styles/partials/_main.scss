@@ -152,15 +152,15 @@ main {
       padding-top: 5rem;
    }
    .blogLeftSide {
-      width: 32%;
+      width: 30%;
+      margin-right: 2.5rem;
    }
    .blogRightSide {
-      width: 68%;
+      width: 70%;
    }
 }
 
 .profileContainer {
-   margin-right: 1.5rem;
    .imageBox {
       width: 100%;
       img {
@@ -200,7 +200,8 @@ main {
    .bloggerInfo {
       background-color: $solidWhite;
       padding: 2rem;
-      margin-left: 1rem;
+      border-bottom: 10px solid $tertiary;
+      margin-bottom: 2rem;
       h2 {
          margin-bottom: 1rem;
       }
@@ -215,4 +216,66 @@ main {
          margin: 1rem 0;
       }
    }
+   .blogComment {
+      background-color: $solidWhite;
+      padding: 2rem;
+      margin-top: 1rem;
+      .blogImageBox {
+         width: 33%;
+         img{
+            width: 100%;
+            object-fit: cover;
+         }
+      }
+      .commentBox {
+         margin-left: 1rem; 
+         .date {
+            font-style: italic;
+            text-transform: none;
+            font-weight: 400;
+            margin-bottom: 0.7rem;
+            a {
+               color: $secondary;
+               
+            }
+         }
+      }
+   }
+   .underline {
+      border-bottom: 10px solid $tertiary;
+   }
+   .formBox {
+      margin-top: 2rem;
+      position: relative;
+      .name,
+      .email,
+      .comment {
+         border: none;
+         padding: 1rem;
+         font-style: italic;
+         text-transform: capitalize;
+         color: $primary;
+      }
+      .name,
+      .email {
+         width: 50%;
+      }
+      .name {
+         margin-right: 0.25rem;
+      }
+      .email {
+         margin-left: 0.25rem;
+      }
+      .comment {
+         width: 100%;
+         margin-top: 0.5rem;
+         height: 10rem;
+      }
+      .submit {
+         width: 100%;
+         margin: 1rem 0 5rem 0;
+         padding: 0.7rem 0;
+      }
+   }
 }
+

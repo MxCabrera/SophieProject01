@@ -353,7 +353,8 @@ li {
           justify-content: space-between;
 }
 
-button {
+button,
+.submit {
   text-transform: uppercase;
   color: #2c2c2c;
   background-color: #05afc1;
@@ -363,21 +364,26 @@ button {
   border-style: hidden;
   cursor: pointer;
 }
-button:hover {
+button:hover,
+.submit:hover {
   color: #f0efed;
   background-color: #285e64;
 }
-button:focus {
+button:focus,
+.submit:focus {
   color: #f0efed;
   background-color: #285e64;
 }
-button.secondary {
+button.secondary,
+.submit.secondary {
   width: 100%;
 }
-button.menuIcon {
+button.menuIcon,
+.submit.menuIcon {
   color: #2c2c2c;
 }
-button.menuIcon:hover {
+button.menuIcon:hover,
+.submit.menuIcon:hover {
   color: rbg(246, 246, 246);
 }
 
@@ -461,6 +467,8 @@ header .headerImgContainer img {
 }
 
 .blogHeader {
+  background-image: url(../assets/blog-image-1.jpg);
+  background-size: cover;
   height: 50vh;
   position: relative;
 }
@@ -625,15 +633,13 @@ main .blogFlex {
   padding-top: 5rem;
 }
 main .blogLeftSide {
-  width: 32%;
+  width: 30%;
+  margin-right: 2.5rem;
 }
 main .blogRightSide {
-  width: 68%;
+  width: 70%;
 }
 
-.profileContainer {
-  margin-right: 1.5rem;
-}
 .profileContainer .imageBox {
   width: 100%;
 }
@@ -673,7 +679,8 @@ main .blogRightSide {
 .blogRightSide .bloggerInfo {
   background-color: #ffffff;
   padding: 2rem;
-  margin-left: 1rem;
+  border-bottom: 10px solid #f6a823;
+  margin-bottom: 2rem;
 }
 .blogRightSide .bloggerInfo h2 {
   margin-bottom: 1rem;
@@ -687,6 +694,67 @@ main .blogRightSide {
 }
 .blogRightSide .bloggerInfo p {
   margin: 1rem 0;
+}
+.blogRightSide .blogComment {
+  background-color: #ffffff;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.blogRightSide .blogComment .blogImageBox {
+  width: 33%;
+}
+.blogRightSide .blogComment .blogImageBox img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blogRightSide .blogComment .commentBox {
+  margin-left: 1rem;
+}
+.blogRightSide .blogComment .commentBox .date {
+  font-style: italic;
+  text-transform: none;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+}
+.blogRightSide .blogComment .commentBox .date a {
+  color: #285e64;
+}
+.blogRightSide .underline {
+  border-bottom: 10px solid #f6a823;
+}
+.blogRightSide .formBox {
+  margin-top: 2rem;
+  position: relative;
+}
+.blogRightSide .formBox .name,
+.blogRightSide .formBox .email,
+.blogRightSide .formBox .comment {
+  border: none;
+  padding: 1rem;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #2c2c2c;
+}
+.blogRightSide .formBox .name,
+.blogRightSide .formBox .email {
+  width: 50%;
+}
+.blogRightSide .formBox .name {
+  margin-right: 0.25rem;
+}
+.blogRightSide .formBox .email {
+  margin-left: 0.25rem;
+}
+.blogRightSide .formBox .comment {
+  width: 100%;
+  margin-top: 0.5rem;
+  height: 10rem;
+}
+.blogRightSide .formBox .submit {
+  width: 100%;
+  margin: 1rem 0 5rem 0;
+  padding: 0.7rem 0;
 }
 
 footer {
