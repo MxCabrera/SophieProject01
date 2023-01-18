@@ -28,8 +28,8 @@ header {
 }
 
 
-.blogHeader {
-   background-image: url(../assets/blog-image-1.jpg);
+.blogHeader,
+.contactHeader {
    background-size: cover;
    height: 50vh;
    position: relative;
@@ -37,4 +37,12 @@ header {
       position: absolute;
       bottom: -2rem;
    }
+}
+
+.blogHeader {
+   background-image: url(../assets/blog-image-1.jpg);
+}
+
+.contactHeader {
+   background-image: url(../assets/contact-image-1.jpg);
 }

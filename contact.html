@@ -8,6 +8,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet">
+   <script src="https://kit.fontawesome.com/c9714a9747.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="./styles/styles.css">
    <link rel="icon" href="./assets/sophie-favicon.png">
    <title>Contact Page</title>
@@ -27,9 +28,9 @@
       </div>
    </nav>
    <!-- header  -->
-   <header>
+   <header class="contactHeader">
       <div class="wrapper">
-         <h2>Get In Touch</h2>
+         <h1>Get In Touch</h2>
       </div>
    </header><!-- header ends -->
    
@@ -40,26 +41,32 @@
             <div class="contactLeftSide">
                <div class="socialContainer">
                   <ul>
-                     <li><a href="www.facebook.com">Facebook</a></li>
-                     <li><a href="www.twitter.com">Twitter</a></li>
-                     <li><a href="www.linkedin.com">Linked In</a></li>
-                     <li><a href="www.instagram.com">Instagram</a></li>
+                     <li><a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a></li>
+                     <li><a href="www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                     <li><a href="www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></li>
+                     <li><a href="www.instagram.com"><i class="fab fa-instagram"></i></a></li>
                   </ul>
-                  <p>info@email.com</p>
+                  <p class="contactEmail">info@email.com</p>
                   <p>123-456-7890</p>
-                  <p>123 Queen Street West, Unit 10 Toronto, Ontario M5V2D5</p>
+                  <p>123 Queen Street West, Unit 10 </p>
+                  <p>Toronto, Ontario</p>
+                  <p>M5V2D5</p>
                </div>
             </div>
             <div class="contactRightSide">
-               <form action="">
-                  <label for="name" class="sr-only">Name</label>
-                  <input type="text" placeholder="name" id="name">
-                  <label for="email" class="sr-only">Email address</label>
-                  <input type="email" placeholder="Email address" id="email">
-                  <label for="message" class="sr-only">Message</label>
-                  <input type="text" id="message" placeholder="Comment">
-                  <button>Submit</button>
-               </form>
+               <div class="formBox">
+                  <form action="">
+                     <div class="flex">
+                        <label for="name" class="sr-only">Name</label>
+                        <input class="name" type="text" placeholder="name" id="name">
+                        <label for="email" class="sr-only">Email address</label>
+                        <input class="email" type="email" placeholder="Email address" id="email">
+                     </div>
+                     <label for="message" class="sr-only">Message</label>
+                     <input class="message" type="text" id="message" placeholder="Message">
+                     <input class="submit" type="submit" value="Submit">
+                  </form>
+               </div>
             </div>
          </div>
       </div>
@@ -67,7 +74,7 @@
    
    <!-- footer -->
    <footer>
-   
+      <h4>Copyright @ 2018 HackerYou</h4>
    </footer><!-- footer ends -->
 
 </body>

@@ -466,15 +466,24 @@ header .headerImgContainer img {
      object-fit: cover;
 }
 
-.blogHeader {
-  background-image: url(../assets/blog-image-1.jpg);
+.blogHeader,
+.contactHeader {
   background-size: cover;
   height: 50vh;
   position: relative;
 }
-.blogHeader h1 {
+.blogHeader h1,
+.contactHeader h1 {
   position: absolute;
   bottom: -2rem;
+}
+
+.blogHeader {
+  background-image: url(../assets/blog-image-1.jpg);
+}
+
+.contactHeader {
+  background-image: url(../assets/contact-image-1.jpg);
 }
 
 .whoSection {
@@ -723,38 +732,80 @@ main .blogRightSide {
 .blogRightSide .underline {
   border-bottom: 10px solid #f6a823;
 }
-.blogRightSide .formBox {
+
+.formBox {
   margin-top: 2rem;
   position: relative;
 }
-.blogRightSide .formBox .name,
-.blogRightSide .formBox .email,
-.blogRightSide .formBox .comment {
+.formBox .name,
+.formBox .email,
+.formBox .comment,
+.formBox .message {
   border: none;
   padding: 1rem;
   font-style: italic;
   text-transform: capitalize;
   color: #2c2c2c;
 }
-.blogRightSide .formBox .name,
-.blogRightSide .formBox .email {
+.formBox .name,
+.formBox .email {
   width: 50%;
 }
-.blogRightSide .formBox .name {
+.formBox .name {
   margin-right: 0.25rem;
 }
-.blogRightSide .formBox .email {
+.formBox .email {
   margin-left: 0.25rem;
 }
-.blogRightSide .formBox .comment {
+.formBox .comment,
+.formBox .message {
   width: 100%;
   margin-top: 0.5rem;
+}
+.formBox .comment {
   height: 10rem;
 }
-.blogRightSide .formBox .submit {
+.formBox .message {
+  height: 13rem;
+}
+.formBox .submit {
   width: 100%;
   margin: 1rem 0 5rem 0;
   padding: 0.7rem 0;
+}
+
+.contactContainer {
+  padding-top: 5rem;
+}
+.contactContainer .contactLeftSide {
+  width: 29%;
+}
+.contactContainer .contactLeftSide .socialContainer ul {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactContainer .contactLeftSide .socialContainer ul i {
+  color: #f6a823;
+  text-shadow: 1px 1px 1px #f0efed;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.contactContainer .contactLeftSide .socialContainer ul i:hover {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px black;
+}
+.contactContainer .contactLeftSide .socialContainer .contactEmail {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.contactContainer .contactRightSide {
+  width: 69%;
 }
 
 footer {
