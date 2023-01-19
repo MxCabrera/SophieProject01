@@ -1,6 +1,12 @@
 
 // ~ 1140px media query ~ //
 @media (max-width: 1140px) {
+   nav {
+      .navContainer {
+         width: 62%;
+      }
+   }
+
    header {
       .logoContainer {
          img {
@@ -24,6 +30,11 @@
       .logoContainer {
          img {
             left: -2%;
+            width: 43%;
+            top: -28px;
+         }
+         h1 {
+            font-size: 3.2rem;
          }
       }
    }
@@ -31,12 +42,50 @@
 
 // ~ 768px media query ~ //
 @media (max-width: 768px) {
+   nav {
+      .navContainer {
+         width: 100%;
+         h2 {
+            width: 100%;
+            text-align: center;
+         }
+         li {
+            display: none;
+         }
+         .hamburger {
+            display: block;
+            font-size: 1.5rem;
+         }
+      }
+   }
 
-
+   header {
+      background-image: url(../assets/home-image-1.jpg);
+      background-size: cover;
+      background-position: center;
+      .logoContainer {
+         width: 100%;
+         margin-top: 25.5rem;
+         img {
+            left: 13%;
+            width: 29%;
+            top: -66px;
+         }
+         h1 {
+            font-size: 5rem;
+            text-shadow: 1px 1px 2px $solidWhite;
+         }
+      }
+      .headerImgContainer {
+         display: none;
+      }
+   }
    
 }
 
 // ~ 480px media query ~ //
 @media (max-width: 480px) {
+
+
 
 }

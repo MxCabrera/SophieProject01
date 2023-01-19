@@ -430,6 +430,9 @@ nav .navContainer li {
 nav .navContainer li a:hover {
   color: #f0efed;
 }
+nav .navContainer .hamburger {
+  display: none;
+}
 
 header {
   background-color: #f6a823;
@@ -820,6 +823,9 @@ footer h4 {
 }
 
 @media (max-width: 1140px) {
+  nav .navContainer {
+    width: 62%;
+  }
   header .logoContainer img {
     left: 4%;
   }
@@ -830,5 +836,47 @@ footer h4 {
   }
   header .logoContainer img {
     left: -2%;
+    width: 43%;
+    top: -28px;
+  }
+  header .logoContainer h1 {
+    font-size: 3.2rem;
+  }
+}
+@media (max-width: 768px) {
+  nav .navContainer {
+    width: 100%;
+  }
+  nav .navContainer h2 {
+    width: 100%;
+    text-align: center;
+  }
+  nav .navContainer li {
+    display: none;
+  }
+  nav .navContainer .hamburger {
+    display: block;
+    font-size: 1.5rem;
+  }
+  header {
+    background-image: url(../assets/home-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  header .logoContainer {
+    width: 100%;
+    margin-top: 25.5rem;
+  }
+  header .logoContainer img {
+    left: 13%;
+    width: 29%;
+    top: -66px;
+  }
+  header .logoContainer h1 {
+    font-size: 5rem;
+    text-shadow: 1px 1px 2px #ffffff;
+  }
+  header .headerImgContainer {
+    display: none;
   }
 }
