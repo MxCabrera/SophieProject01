@@ -593,6 +593,9 @@ header .headerImgContainer img {
   padding: 0.5rem;
   border-radius: 50%;
 }
+.infoSection .infoFlex .infoContainer .hidden {
+  display: none;
+}
 .infoSection .infoFlex .infoContainer .infoBox h3 {
   margin-bottom: 1rem;
 }
@@ -918,6 +921,35 @@ footer h4 {
   .factSection .factInfoTwo {
     padding: 2rem 0 0 0;
   }
+  .infoSection .infoFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .infoSection .infoFlex .infoContainer {
+    width: 100%;
+  }
+  .infoSection .infoFlex .infoContainer .infoIcon {
+    padding-right: 1rem;
+  }
+  .journeySection {
+    padding-bottom: 2rem;
+  }
+  .journeySection .journeyContainer .journeyPic {
+    display: none;
+  }
+  .journeySection .journeyContainer .journeyInfo {
+    padding-left: 0;
+  }
+  .journeySection .journeyContainer .journeyInfo h2,
+.journeySection .journeyContainer .journeyInfo p,
+.journeySection .journeyContainer .journeyInfo a {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
 }
 @media (max-width: 600px) {
   header .logoContainer img {
@@ -935,6 +967,18 @@ footer h4 {
     width: 100%;
     display: block;
     text-align: center;
+  }
+  .photoGallery .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .photoGallery .flex .photoContainer {
+    width: 100%;
+  }
+  .photoGallery .flex .photoMid {
+    display: none;
   }
 }
 @media (max-width: 480px) {

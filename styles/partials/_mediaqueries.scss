@@ -116,6 +116,37 @@
          padding: 2rem 0 0 0;
       }
    }
+
+   .infoSection {
+      .infoFlex {
+         flex-direction: column;
+         flex-wrap: nowrap;
+         .infoContainer {
+            width: 100%;
+            .infoIcon {
+               padding-right: 1rem;
+            }
+         }
+      }
+   }
+
+   .journeySection {
+      padding-bottom: 2rem;
+      .journeyContainer {
+         .journeyPic {
+            display: none;
+         }
+         .journeyInfo {
+            padding-left: 0;
+            h2,
+            p,
+            a {
+               text-align: center;
+               padding-bottom: 1rem;
+            }
+         }
+      }
+   }
 }
 
 @media (max-width: 600px) {
@@ -143,6 +174,18 @@
          
       }
    }   
+
+   .photoGallery {
+      .flex {
+         flex-direction: column;
+         .photoContainer {
+            width: 100%;
+         }
+         .photoMid {
+            display: none;
+         }
+      }
+   }
 }
 
 // ~ 480px media query ~ //
