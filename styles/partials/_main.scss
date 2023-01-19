@@ -30,6 +30,9 @@
          box-shadow: -100px 20px $senary;
       }
    }
+   .hidden {
+      display: none;
+   }
    .factTwo {
       box-shadow: 30px 20px $tertiary;
       img {
@@ -48,8 +51,9 @@
    .factInfo {
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
       width: 52%;
-      padding: 0 2rem;
+      padding: 0 3rem;
       h3,
       p {
          margin-bottom: 1.5rem;

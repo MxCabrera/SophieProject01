@@ -514,6 +514,9 @@ header .headerImgContainer img {
   -webkit-box-shadow: -100px 20px #a82706;
           box-shadow: -100px 20px #a82706;
 }
+.factSection .hidden {
+  display: none;
+}
 .factSection .factTwo {
   -webkit-box-shadow: 30px 20px #f6a823;
           box-shadow: 30px 20px #f6a823;
@@ -539,8 +542,11 @@ header .headerImgContainer img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 52%;
-  padding: 0 2rem;
+  padding: 0 3rem;
 }
 .factSection .factInfo h3,
 .factSection .factInfo p {
@@ -829,6 +835,12 @@ footer h4 {
   header .logoContainer img {
     left: 4%;
   }
+  .factSection .factInfo {
+    padding: 2rem 0 0 3rem;
+  }
+  .factSection .factInfoTwo {
+    padding: 0 3rem 0 0;
+  }
 }
 @media (max-width: 940px) {
   nav .navContainer {
@@ -878,5 +890,66 @@ footer h4 {
   }
   header .headerImgContainer {
     display: none;
+  }
+  .factSection .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .factSection .flex .hidden {
+    display: block;
+  }
+  .factSection .hidden2 {
+    display: none;
+  }
+  .factSection .factImgContainer {
+    width: 100%;
+  }
+  .factSection .factInfo {
+    width: 100%;
+    padding: 3rem 0 0 0;
+  }
+  .factSection .factInfo h3,
+.factSection .factInfo p,
+.factSection .factInfo a {
+    text-align: center;
+  }
+  .factSection .factInfoTwo {
+    padding: 2rem 0 0 0;
+  }
+}
+@media (max-width: 600px) {
+  header .logoContainer img {
+    top: -40px;
+    left: 10%;
+  }
+  header .logoContainer h1 {
+    font-size: 4rem;
+  }
+  .whoSection h2,
+.whoSection p {
+    text-align: center;
+  }
+  .whoSection a {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  header .logoContainer img {
+    top: -30px;
+    left: 5%;
+  }
+  header .logoContainer h1 {
+    font-size: 3.3rem;
+  }
+  .whoSection h2 {
+    font-size: 1.8rem;
+  }
+  .whoSection p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
   }
 }

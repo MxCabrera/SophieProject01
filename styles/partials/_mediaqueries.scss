@@ -15,6 +15,15 @@
       }
    }
 
+   .factSection {
+      .factInfo {
+         padding: 2rem 0 0 3rem;
+      }
+      .factInfoTwo {
+         padding: 0 3rem 0 0;
+      }
+   }
+
 }
 
 // ~ 940px media query ~ //
@@ -80,12 +89,83 @@
          display: none;
       }
    }
-   
+   .factSection {
+      .flex {
+         flex-direction: column;
+         .hidden {
+            display: block;
+         }
+      }
+      .hidden2 {
+         display: none;
+      }
+      .factImgContainer {
+         width: 100%;
+      }
+      .factInfo {
+         width: 100%;
+         padding: 3rem 0 0 0;
+         h3,
+         p,
+         a {
+            text-align: center;
+         }
+      }
+
+      .factInfoTwo {
+         padding: 2rem 0 0 0;
+      }
+   }
+}
+
+@media (max-width: 600px) {
+   header {
+      .logoContainer {
+         img {
+            top: -40px;
+            left: 10%;
+         }
+         h1 {
+            font-size: 4rem;
+         }
+      }
+   }
+
+   .whoSection {
+      h2,
+      p {
+         text-align: center;
+      }
+      a {
+         width: 100%;
+         display:block;
+         text-align: center;
+         
+      }
+   }   
 }
 
 // ~ 480px media query ~ //
 @media (max-width: 480px) {
+   header {
+      .logoContainer {
+         img {
+            top: -30px;
+            left: 5%;
+         }
 
-
-
+         h1 {
+            font-size: 3.3rem;
+         }
+      }
+   }
+   .whoSection {
+      h2 {
+         font-size: 1.8rem;
+      }
+      p {
+         font-size: 0.9rem;
+         line-height: 1.3rem;
+      }
+   }
 }
