@@ -922,6 +922,28 @@ footer h4 {
     width: 100%;
     margin-top: 2rem;
   }
+  .contactMain .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactMain .flex .contactLeftSide {
+    width: 100%;
+  }
+  .contactMain .flex .contactLeftSide .socialContainer ul {
+    width: 30%;
+  }
+  .contactMain .flex .contactRightSide {
+    width: 100%;
+  }
+  .contactMain .flex .contactRightSide .formBox .name,
+.contactMain .flex .contactRightSide .formBox .email {
+    width: 100%;
+  }
+  .contactMain .flex .contactRightSide .formBox .email {
+    margin: 0.5rem 0 0 0;
+  }
 }
 @media (max-width: 768px) {
   nav .navContainer {

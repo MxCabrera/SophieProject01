@@ -93,6 +93,35 @@
          }
       }
    }
+
+   // contact page styles 
+
+   .contactMain {
+      .flex {
+         flex-direction: column;
+         .contactLeftSide {
+            width: 100%;
+            .socialContainer {
+               ul {
+                  width: 30%;
+               }
+            }
+         }
+         .contactRightSide {
+            width: 100%;
+            .formBox {
+               .name,
+               .email {
+                  width: 100%;
+               }
+               .email {
+                  margin: 0.5rem 0 0 0;
+               }
+            }
+         }
+      }
+   }
+
 }
 
 // ~ 768px media query ~ //
