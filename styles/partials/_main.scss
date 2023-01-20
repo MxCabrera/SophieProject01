@@ -157,6 +157,10 @@ main {
    background-color: $septenary;
    .blogFlex {
       padding-top: 5rem;
+      .flex {
+         flex-direction: column;
+         justify-content: flex-start;
+      }
    }
    .blogLeftSide {
       width: 30%;
@@ -168,6 +172,9 @@ main {
 }
 
 .profileContainer {
+   .blogHidden {
+      display: none;
+   }
    .imageBox {
       width: 100%;
       img {
@@ -177,6 +184,14 @@ main {
    }
    h3 {
       margin: 1.5rem 0;
+   }
+   p {
+      a {
+         color: $secondary;
+         &:hover {
+            color: $quinary;
+         }
+      }
    }
 }
 .profileContainer,

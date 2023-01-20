@@ -47,6 +47,52 @@
          }
       }
    }
+   
+
+   // blog page styles @ 940px
+   .blogHeader {
+      background-position: 55%;
+   }
+   .blogMain {
+      .flex {
+         flex-direction: column;
+      }
+      .blogFlex {
+         .flex {
+            flex-direction: row;
+            justify-content: space-between;
+         }
+         .blogLeftSide {
+            width: 100%;
+            .profileContainer {
+               width: 100%;
+               display: flex;
+            }
+            .profileContainer {
+               .tabBlogAbout {
+                  padding: 0 0 0 2rem;
+                  h3,
+                  p {
+                     width: 100%;
+                  }
+                  .recentPosts {
+                     padding: 0;
+                  }
+               }
+               .blogHidden {
+                  display: block;
+               }
+            }
+            .recentPosts {
+               display: none;
+            }
+         }
+         .blogRightSide {
+            width: 100%;
+            margin-top: 2rem;
+         }
+      }
+   }
 }
 
 // ~ 768px media query ~ //
@@ -186,6 +232,64 @@
          }
       }
    }
+
+   // blog page styles @ 600px
+
+   .blogHeader {
+      background-position: 62%;
+   }
+
+   .blogMain {
+      .blogFlex {
+         padding-top: 3.5rem;
+         .flex {
+            display: block;
+         }
+         .blogLeftSide {
+            .profileContainer {
+               display: block;
+               .tabBlogAbout{
+                  padding: 0;
+                  h3 {
+                     text-align: center;
+                  }
+               }
+               .blogHidden {
+                  display: none;
+               }
+            }
+            .recentPosts {
+               display: block;
+            }
+         }
+         .blogRightSide {
+            .flex {
+               display: flex;
+               flex-direction: column;
+            }
+            .blogComment {
+               .blogImageBox {
+                  margin: 0 auto 2rem auto;
+                  
+               }
+               .commentBox {
+                  text-align: center;
+               }
+            }
+            .formBox {
+               .name,
+               .email {
+                  width: 100%;
+               }
+               .email {
+                  margin-left: 0;
+                  margin-top: 0.5rem;
+               }
+            }
+         }
+      } 
+   }
+
 }
 
 // ~ 480px media query ~ //

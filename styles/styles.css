@@ -653,6 +653,15 @@ main {
 main .blogFlex {
   padding-top: 5rem;
 }
+main .blogFlex .flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
 main .blogLeftSide {
   width: 30%;
   margin-right: 2.5rem;
@@ -661,6 +670,9 @@ main .blogRightSide {
   width: 70%;
 }
 
+.profileContainer .blogHidden {
+  display: none;
+}
 .profileContainer .imageBox {
   width: 100%;
 }
@@ -671,6 +683,12 @@ main .blogRightSide {
 }
 .profileContainer h3 {
   margin: 1.5rem 0;
+}
+.profileContainer p a {
+  color: #285e64;
+}
+.profileContainer p a:hover {
+  color: #05afc1;
 }
 
 .profileContainer,
@@ -857,6 +875,53 @@ footer h4 {
   header .logoContainer h1 {
     font-size: 3.2rem;
   }
+  .blogHeader {
+    background-position: 55%;
+  }
+  .blogMain .flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogMain .blogFlex .flex {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .blogMain .blogFlex .blogLeftSide {
+    width: 100%;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout {
+    padding: 0 0 0 2rem;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout h3,
+.blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout p {
+    width: 100%;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout .recentPosts {
+    padding: 0;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer .blogHidden {
+    display: block;
+  }
+  .blogMain .blogFlex .blogLeftSide .recentPosts {
+    display: none;
+  }
+  .blogMain .blogFlex .blogRightSide {
+    width: 100%;
+    margin-top: 2rem;
+  }
 }
 @media (max-width: 768px) {
   nav .navContainer {
@@ -979,6 +1044,53 @@ footer h4 {
   }
   .photoGallery .flex .photoMid {
     display: none;
+  }
+  .blogHeader {
+    background-position: 62%;
+  }
+  .blogMain .blogFlex {
+    padding-top: 3.5rem;
+  }
+  .blogMain .blogFlex .flex {
+    display: block;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer {
+    display: block;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout {
+    padding: 0;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout h3 {
+    text-align: center;
+  }
+  .blogMain .blogFlex .blogLeftSide .profileContainer .blogHidden {
+    display: none;
+  }
+  .blogMain .blogFlex .blogLeftSide .recentPosts {
+    display: block;
+  }
+  .blogMain .blogFlex .blogRightSide .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blogMain .blogFlex .blogRightSide .blogComment .blogImageBox {
+    margin: 0 auto 2rem auto;
+  }
+  .blogMain .blogFlex .blogRightSide .blogComment .commentBox {
+    text-align: center;
+  }
+  .blogMain .blogFlex .blogRightSide .formBox .name,
+.blogMain .blogFlex .blogRightSide .formBox .email {
+    width: 100%;
+  }
+  .blogMain .blogFlex .blogRightSide .formBox .email {
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
 }
 @media (max-width: 480px) {
