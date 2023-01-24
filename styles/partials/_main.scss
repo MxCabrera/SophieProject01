@@ -157,17 +157,21 @@ main {
    background-color: $septenary;
    .blogFlex {
       padding-top: 5rem;
-      .flex {
-         flex-direction: column;
-         justify-content: flex-start;
-      }
    }
    .blogLeftSide {
       width: 30%;
       margin-right: 2.5rem;
+      .flexLeft {
+         flex-direction: column;
+         justify-content: flex-start;
+      }
    }
    .blogRightSide {
       width: 70%;
+      .flex {
+         flex-direction: row;
+         justify-content: flex-start;
+      }
    }
 }
 
