@@ -1,12 +1,13 @@
 
 // ~ 1140px media query ~ //
 @media (max-width: 1140px) {
+   // ~ navigations styles ~ //
    nav {
       .navContainer {
          width: 62%;
       }
    }
-
+   // ~ header styles ~ // 
    header {
       .logoContainer {
          img {
@@ -14,7 +15,7 @@
          }
       }
    }
-
+   // ~ fact section styles ~ // 
    .factSection {
       .factInfo {
          padding: 2rem 0 0 3rem;
@@ -23,18 +24,18 @@
          padding: 0 3rem 0 0;
       }
    }
+} // ~ 1140px media query ends ~ // 
 
-}
 
 // ~ 940px media query ~ //
 @media (max-width: 940px) {
-
+   // ~ navigation styles ~ // 
    nav {
       .navContainer {
          width: 70%;
       }
    }
-
+   // ~ header styles ~ // 
    header {
       .logoContainer {
          img {
@@ -47,12 +48,11 @@
          }
       }
    }
-   
-
-   // blog page styles @ 940px
+   // ~ blog page styles @ 940px ~ // 
    .blogHeader {
       background-position: 55%;
    }
+   // ~ blog main styles ~ //
    .blogMain {
       .flex {
          flex-direction: column;
@@ -62,6 +62,7 @@
             flex-direction: row;
             justify-content: space-between;
          }
+         // ~ blog left side styles ~ // 
          .blogLeftSide {
             width: 100%;
             .profileContainer {
@@ -87,18 +88,18 @@
                display: none;
             }
          }
+         // ~ blog right side styles ~ // 
          .blogRightSide {
             width: 100%;
             margin-top: 2rem;
          }
       }
    }
-
-   // contact page styles 
-
+   // ~ contact page styles ~ // 
    .contactMain {
       .flex {
          flex-direction: column;
+         // ~ contact left side styles ~ //
          .contactLeftSide {
             width: 100%;
             .socialContainer {
@@ -107,6 +108,7 @@
                }
             }
          }
+         // ~ contact right side styles ~ //
          .contactRightSide {
             width: 100%;
             .formBox {
@@ -121,11 +123,12 @@
          }
       }
    }
+} // ~ 940px media query styles ends ~ //
 
-}
 
 // ~ 768px media query ~ //
 @media (max-width: 768px) {
+   // ~ navigation styles ~ //
    nav {
       .navContainer {
          width: 100%;
@@ -142,7 +145,7 @@
          }
       }
    }
-
+   // ~ header styles ~ //
    header {
       background-image: url(../assets/home-image-1.jpg);
       background-size: cover;
@@ -164,6 +167,7 @@
          display: none;
       }
    }
+   // ~ fact section styles ~ // 
    .factSection {
       .flex {
          flex-direction: column;
@@ -186,12 +190,11 @@
             text-align: center;
          }
       }
-
       .factInfoTwo {
          padding: 2rem 0 0 0;
       }
    }
-
+   // ~ info section styles ~ //
    .infoSection {
       .infoFlex {
          flex-direction: column;
@@ -204,7 +207,7 @@
          }
       }
    }
-
+   // ~ journey section styles ~ //
    .journeySection {
       padding-bottom: 2rem;
       .journeyContainer {
@@ -222,9 +225,12 @@
          }
       }
    }
-}
+} // ~ 768px media query styles ends ~ //
 
+
+// ~ 600px media query ~ // 
 @media (max-width: 600px) {
+   // ~ header styles ~ // 
    header {
       .logoContainer {
          img {
@@ -236,7 +242,7 @@
          }
       }
    }
-
+   // ~ who section styles ~ //
    .whoSection {
       h2,
       p {
@@ -249,7 +255,7 @@
          
       }
    }   
-
+   // ~ photo gallery styles ~ // 
    .photoGallery {
       .flex {
          flex-direction: column;
@@ -262,18 +268,18 @@
       }
    }
 
-   // blog page styles @ 600px
-
+   // ~ blog page styles ~ // 
    .blogHeader {
       background-position: 62%;
    }
-
+   // ~ blog main styles ~ // 
    .blogMain {
       .blogFlex {
          padding-top: 3.5rem;
          .flex {
             display: block;
          }
+         // ~ blog left side styles ~ // 
          .blogLeftSide {
             .profileContainer {
                display: block;
@@ -291,6 +297,7 @@
                display: block;
             }
          }
+         // ~ blog right side styles ~ //
          .blogRightSide {
             .flex {
                display: flex;
@@ -318,23 +325,24 @@
          }
       } 
    }
+} // ~ 600px media query ends ~ // 
 
-}
 
 // ~ 480px media query ~ //
 @media (max-width: 480px) {
+   // ~ header styles ~ // 
    header {
       .logoContainer {
          img {
             top: -30px;
             left: 5%;
          }
-
          h1 {
             font-size: 3.3rem;
          }
       }
    }
+   // ~ who section styles ~ // 
    .whoSection {
       h2 {
          font-size: 1.8rem;
@@ -344,4 +352,4 @@
          line-height: 1.3rem;
       }
    }
-}
+} // ~ 480px media query styles ends ~ // 

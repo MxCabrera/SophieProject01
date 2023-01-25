@@ -1,9 +1,11 @@
+// ~ nav styles ~ //
 nav {
    position: sticky;
    top: 0;
    z-index: 10;
    padding: 1rem 0;
    background-color: $tertiary;
+   // ~ nav container styles ~ //
    .navContainer {
       width: 55%;
       margin: 0 auto;

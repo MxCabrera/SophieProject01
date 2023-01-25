@@ -1,4 +1,4 @@
-// who section //
+// ~ who section styles ~ //
 
 .whoSection {
    background-color: rgba($quaternary, 0.2) ;
@@ -14,12 +14,12 @@
          margin-bottom: 6rem;
       }
    }
-}
+} // ~ who section styles ends ~ // 
 
-// fact section //
+
+// ~ fact section styles ~ //
 
 .factSection {
-   // background-color: $primary;
    .flexTwo {
       margin-top: 3rem;
    }
@@ -40,7 +40,6 @@
    }
    .factImgContainer {
       width: 48%;
-      // box-shadow: 20px 20px 1px $tertiary;
       img {
          width: 100%;
          object-fit: cover;
@@ -57,7 +56,6 @@
       p {
          margin-bottom: 1.5rem;
       }
-
    }
    .factInfoOne {
       align-items: right;
@@ -68,13 +66,13 @@
       justify-content: flex-start;
       align-items: left;
    }
-}
+} // ~ fact section styles ends ~ // 
 
-// information section //
+
+// ~ information section styles ~ //
 
 .infoSection {
    padding: 4rem 0 3rem ;
-
    background-color: $septenary;
    .infoFlex {
       display: flex;
@@ -100,10 +98,10 @@
          }
       }
    }
-}
+} // ~ information section styles ends ~ //
 
 
-// journey section //
+// ~ journey section styles ~ //
 
 .journeySection {
    padding-bottom: 3rem;
@@ -130,9 +128,10 @@
          justify-content: space-between;
       }
    }
-}
+} // ~ journey section styles ends ~ // 
 
-// photo gallery //
+
+// ~ photo gallery styles ~ //
 
 .photoGallery {
    padding-bottom: 3rem;
@@ -145,12 +144,10 @@
    .photoMid {
       margin: 0 0.5rem;
    }
-}
+} // ~ photo gallery styles ends ~ // 
 
 
-
-// blog page section //
-
+// ~ blog page main styles ~ //
 
 main {
    background-color: $septenary;
@@ -310,9 +307,10 @@ main {
       margin: 1rem 0 5rem 0;
       padding: 0.7rem 0;
    }
-}
+} // ~blog page main styles ends ~ //
 
-// contact page section //
+
+// contact page main styles //
 
 .contactContainer {
    padding-top: 5rem;
@@ -345,4 +343,4 @@ main {
    .contactRightSide {
       width: 69%;
    }
-}
+} // ~ contact page main styles end ~ // 
