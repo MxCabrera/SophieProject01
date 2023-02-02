@@ -65,7 +65,21 @@
          <div class="wrapper">            
             <h2>Who is Sophie?</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In et risus nec orci ornare condimentum. Nam suscipit odio lorem, id vestibulum lacus tristique eu. Sed urna ex, porttitor nec iaculis at, consectetur vel turpis. Vestibulum ultricies, felis in lacinia porttitor, tortor metus convalis augue, at fermentum diam erat nec quam. Nulla facilisi.</p>
-            <a href="#"><button>Find out More</button></a>
+            <section class="modal hidden">
+               <div class="flex">
+                  <img src="./assets/home-image-1.jpg"  alt="user image">
+                  <button class="btn-close">X</button>
+               </div>
+               <div class="modalInfo">
+                  <h3>Who Sophie Is</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta suscipit quod nesciunt facere exercitationem labore explicabo aut blanditiis voluptate itaque, repellendus dolorum nulla architecto at neque perferendis qui est eum.</p>
+                  <input type="email" id="email" placeholder="Email Address">
+                  <button class="btn">Submit</button>
+               </div>
+            </section>
+            <div class="overlay hidden"></div>
+            <!-- <button class="btn btn-open">Open Modal</button> -->
+            <a><button class="btn btn-open">Find out More</button></a>
          </div>
       </section><!-- whoSection ends -->
 
@@ -210,7 +224,7 @@
    <footer>
       <h4>Copyright @ 2018 HackerYou</h4>
    </footer><!-- footer ends -->
-   script
+   <script src="./script.js"></script>
 </body>
 
 </html>
