@@ -130,13 +130,41 @@
 @media (max-width: 768px) {
    // ~ navigation styles ~ //
    nav {
+      .hiddenFlex {
+         .visibility,
+         .display,
+         .hamburger {
+            display: block;
+         }
+         .visibility {
+            visibility: hidden;
+         }
+      }
+      .nav-menu {
+         position: fixed;
+         left: -102%;
+         top: 88px;
+         gap: 0;
+         padding: 10px 0;
+         text-align: center;
+         transition: 0.3s;
+         .nav-item {
+            padding: 10px; 
+         }
+      }
+      .nav-menu.active {
+         background-color: $tertiary;
+         left: 2px;
+         border-top: 1px solid $primary;
+      }
+      .flex {
+         flex-direction: column;
+      }
       .navContainer {
          width: 100%;
          h2 {
             width: 100%;
             text-align: center;
-         }
-         li {
             display: none;
          }
          .hamburger {

@@ -6,6 +6,22 @@ nav {
    padding: 1rem 0;
    background-color: $tertiary;
    // ~ nav container styles ~ //
+   .hiddenFlex {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .visibility {
+         display: none;
+      }
+      .display,
+      .hamburger {
+         display: none;
+      }
+      .display {
+         font-family: 'Lora', serif;
+         color: $primary;
+      }
+   }
    .navContainer {
       width: 55%;
       margin: 0 auto;
@@ -18,9 +34,6 @@ nav {
          a:hover {
             color: $septenary;
          }
-      }
-      .hamburger {
-         display: none;
       }
    }
 }
