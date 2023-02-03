@@ -1074,7 +1074,7 @@ footer h4 {
     width: 100%;
   }
   .photoGallery .flex .photoMid {
-    display: none;
+    margin: 0;
   }
   .blogHeader {
     background-position: 62%;
