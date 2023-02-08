@@ -915,7 +915,7 @@ footer h4 {
     padding: 0 0 0 2rem;
   }
   .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout h3,
-.blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout p {
+  .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout p {
     width: 100%;
   }
   .blogMain .blogFlex .blogLeftSide .profileContainer .tabBlogAbout .recentPosts {
@@ -947,7 +947,7 @@ footer h4 {
     width: 100%;
   }
   .contactMain .flex .contactRightSide .formBox .name,
-.contactMain .flex .contactRightSide .formBox .email {
+  .contactMain .flex .contactRightSide .formBox .email {
     width: 100%;
   }
   .contactMain .flex .contactRightSide .formBox .email {
@@ -1010,8 +1010,8 @@ footer h4 {
     padding: 3rem 0 0 0;
   }
   .factSection .factInfo h3,
-.factSection .factInfo p,
-.factSection .factInfo a {
+  .factSection .factInfo p,
+  .factSection .factInfo a {
     text-align: center;
   }
   .factSection .factInfoTwo {
@@ -1041,8 +1041,8 @@ footer h4 {
     padding-left: 0;
   }
   .journeySection .journeyContainer .journeyInfo h2,
-.journeySection .journeyContainer .journeyInfo p,
-.journeySection .journeyContainer .journeyInfo a {
+  .journeySection .journeyContainer .journeyInfo p,
+  .journeySection .journeyContainer .journeyInfo a {
     text-align: center;
     padding-bottom: 1rem;
   }
@@ -1056,7 +1056,7 @@ footer h4 {
     font-size: 4rem;
   }
   .whoSection h2,
-.whoSection p {
+  .whoSection p {
     text-align: center;
   }
   .whoSection a {
@@ -1116,7 +1116,7 @@ footer h4 {
     text-align: center;
   }
   .blogMain .blogFlex .blogRightSide .formBox .name,
-.blogMain .blogFlex .blogRightSide .formBox .email {
+  .blogMain .blogFlex .blogRightSide .formBox .email {
     width: 100%;
   }
   .blogMain .blogFlex .blogRightSide .formBox .email {
