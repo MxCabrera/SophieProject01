@@ -81,7 +81,9 @@
                         <input class="email" type="email" placeholder="Email address" id="email">
                      </div>
                      <label for="message" class="sr-only">Message</label>
-                     <input class="message" type="text" id="message" placeholder="Message">
+                     <!-- <input class="message" type="text" id="message" placeholder="Message" maxlength="200"> -->
+                     <textarea class="message" name="message" id="message" cols="80" rows="10" placeholder="Your message" maxlength="200"></textarea>
+                     <span id="charCount">200/200</span>
                      <input class="submit" type="submit" value="Submit">
                   </form>
                </div><!-- form box ends -->
